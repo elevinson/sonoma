@@ -4,7 +4,7 @@
   <div class="front-page-image" style="background-image: url('<?php print $image_url; ?>');">
     <div class="container">
       <div class="row">
-        <div class="col-xs-6 col-xs-offset-1 caption">
+        <div class="col-sm-6 col-sm-offset-1 caption">
           <h2><?php print $field_caption[0]['value']; ?></h2>
         </div>
       </div>
