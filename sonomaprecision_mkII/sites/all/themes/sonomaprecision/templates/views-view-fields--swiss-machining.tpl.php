@@ -29,7 +29,7 @@
   <?php if (!empty($field->separator)): ?>
     <?php print $field->separator; ?>
   <?php endif; ?>
-  <?php if ($id == 'field_lathe_image' && $field->content !== '<span class="field-content"></span>'): ?>
+  <?php if ($id == 'field_swiss_machine_image' && $field->content !== '<span class="field-content"></span>'): ?>
     <?php $image = TRUE; ?>
     <div class="row">
       <div class="col-xs-6">
@@ -41,10 +41,10 @@
   <?php print $field->label_html; ?>
   <?php print $field->content; ?>
   <?php print $field->wrapper_suffix; ?>
-  <?php if ($id == 'field_lathe_image' && $field->content !== '<span class="field-content"></span>'): ?>
+  <?php if ($id == 'field_swiss_machine_image' && $field->content !== '<span class="field-content"></span>'): ?>
       </div>
   <?php endif; ?>
-  <?php if ($id == 'field_turning_tool_number' && $image): ?>
+  <?php if ($id == 'field_live_tooling_speed' && $image): ?>
       </div>
     </div>
   <?php endif; ?>
